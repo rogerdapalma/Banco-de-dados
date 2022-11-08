@@ -15,8 +15,8 @@ public class Main {
         c.initController();
         DAO dao = new DAO();
 
-        //  dao.inserirFuncionario(new Funcionario(0, "luiz lula", "ladrao@gmail", "futuro presidente"));
-        // dao.inserirFuncionario(new Funcionario(0, "jair bolso", "bozo@gmail", "ex presidente "));
+        //  dao.inserirFuncionario(new Funcionario(0, "carlos", "selva@gmail", "futuro presidente"));
+        // dao.inserirFuncionario(new Funcionario(0, "celso", "jozo@gmail", "ex presidente "));
         ArrayList<Funcionario> ListaDeFuncionarios = dao.listaFuncionarios();
         for (int i = 0; i < ListaDeFuncionarios.size(); i++) {
             System.out.println("id: " + ListaDeFuncionarios.get(i).getId());
